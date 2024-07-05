@@ -10,6 +10,9 @@ const Header = () => {
                     <NavLink style={({ isActive, isPending }) => { return { color: isActive ? "red" : "white" } }} to="/home">Home</NavLink>
                     <NavLink style={({ isActive, isPending }) => { return { color: isActive ? "red" : "white" } }} to="/about">About</NavLink>
                     <NavLink style={({ isActive, isPending }) => { return { color: isActive ? "red" : "white" } }} to="/messages">Messages</NavLink>
+                    <NavLink style={({ isActive, isPending }) => { return { color: isActive ? "red" : "white" } }} to="/formPost">Add Form</NavLink>
+                    <NavLink style={({ isActive, isPending }) => { return { color: isActive ? "red" : "white" } }} to="/latest">SWR</NavLink>
+                
                 </ul>
             </HERBUI.Navbar>
         </div>

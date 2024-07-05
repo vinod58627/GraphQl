@@ -5,6 +5,8 @@ import Home from './Container/Home';
 import Header from './Header/Header';
 import About from './Container/About';
 import Message from './Container/Message';
+import FormPost from './Container/FormPost';
+import SWR from './Container/SWR';
 
 function App() {
   return (
@@ -16,6 +18,9 @@ function App() {
           <Route path="home" element={<Home />} />
           <Route exact path="about" element={<About />} />
           <Route exact path="messages" element={<Message />} />
+          <Route exact path="formPost" element={<FormPost />} />
+          <Route exact path="latest" element={<SWR />} />
+          
         </Routes>
       </BrowserRouter>
     </div>

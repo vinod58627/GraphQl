@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react'
 import { fetchUser } from '../ReduxFiles/Reeducers/UserReducer';
 import { useSelector, useDispatch } from 'react-redux';
+import { FormikProvider,  } from 'formik';
 
 const About = () => {
   
